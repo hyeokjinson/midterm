@@ -3,17 +3,8 @@
 
 #include "ppm_io.h"
 
-Image grayscale( const Image *im );
+void grayscale(Image * img);
+void binarize(int threshold,const Image *im );
 
-Image binarize( const Image *in );
-
-
-Image crop( const Image in );
-
-Image transpose( const Image in );
-
-Image gradient( const Image in );
-
-Image seam( const Image in );
 
 #endif

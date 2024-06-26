@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <assert.h>
+#include "img_processing.h"
+#include "ppm_io.h"
+
+
+Image grayscale( const Image in );
+
+Image binarize( const Image in );
+
+
+Image crop( const Image in );
+
+Image transpose( const Image in );
+
+Image gradient( const Image in );
+
+Image seam( const Image in );

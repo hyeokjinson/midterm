@@ -21,16 +21,17 @@
  *            8: Other errors 
  *****************************************************************************/
 #include "ppm_io.h" // PPM I/O header
-
+#include <stdlib.h> // c functions: atio
 // TODO: include requried headers for your projects.  
 // We recommend to put your image processing operations in 
 //  img_processing.h for decleartions and
 //  img_processing.c for their defintions
 // Then you should include the below header:
-//#include "img_processing.h" // Image processing header
+#include "img_processing.h" // Image processing header
 
 int main(int argc, char **argv) {
 	// TODO: write your codes here
+  	// parsing command line arguments
   
   return 0;
 }

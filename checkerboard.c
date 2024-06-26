@@ -30,7 +30,7 @@ int main(int argc, char **argv) {
   const int num_rows = argc > 3 ? atoi(argv[3]) : 5;
 	const int square_size = argc > 4 ? atoi(argv[3]) : 50;
 
-  // open a ppm file as binary to write
+  // open a ppm file as binacry to write
 	FILE *fp = fopen(filename, "wb");
 	if (!fp) {
 		printf("Couldn't open output file: %s\n", filename);

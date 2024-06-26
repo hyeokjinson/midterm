@@ -97,6 +97,7 @@ Image* ReadPPM(FILE *fp) {
   // allocate the right amount of space for the Pixels
   im->data = malloc(sizeof(Pixel) * (im->rows) * (im->cols));
 
+
   if (!im->data) {
     fprintf(stderr, "Error:ppm_io - failed to allocate memory for image pixels!\n");
     free(im);

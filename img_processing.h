@@ -3,9 +3,9 @@
 
 #include "ppm_io.h"
 
-Image grayscale( const Image in );
+Image grayscale( const Image *im );
 
-Image binarize( const Image in );
+Image binarize( const Image *in );
 
 
 Image crop( const Image in );
